@@ -34,7 +34,7 @@ Users should be able to:
 ### Links
 
 - Solution URL: [Solution URL](https://github.com/ThornenSan/FrontendMentor-NFT-Preview-Card-Component.git)
-- Live Site URL: [Live Site URL](https://your-live-site-url.com)
+- Live Site URL: [Live Site URL](https://thornensan.github.io/FrontendMentor-NFT-Preview-Card-Component/)
 
 ## My process
 
