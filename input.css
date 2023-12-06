@@ -1,0 +1,34 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.nft-container {
+  position: relative;
+}
+
+.nft-image {
+  opacity: 1;
+  transition: 0.5s ease;
+}
+
+.eye-preview {
+  transition: 0.5s ease;
+  opacity: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+}
+
+.nft-container:hover .nft-image {
+  opacity: 0.7;
+}
+
+.nft-container:hover {
+  background-color: cyan;
+}
+
+.nft-container:hover .eye-preview {
+  opacity: 1;
+}

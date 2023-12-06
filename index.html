@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+
+    <title>Frontend Mentor | NFT preview card component</title>
+
+    <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+    <style>
+      .attribution {
+        font-size: 11px;
+        text-align: center;
+      }
+      .attribution a {
+        color: hsl(228, 45%, 44%);
+      }
+    </style>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <!-- Background Container -->
+    <div
+      class="h-screen bg-bgDarkBlue flex items-center justify-center text-softBlue/60"
+    >
+      <!-- Card -->
+      <div class="max-w-xs bg-cardDarkBlue p-5 rounded-xl md:max-w-sm">
+        <!-- NFT Image -->
+        <div class="nft-container">
+          <img src="images/image-equilibrium.jpg" alt="" class="nft-image" />
+          <div class="eye-preview">
+            <img src="images/icon-view.svg" alt="" />
+          </div>
+        </div>
+
+        <!-- Title -->
+        <h1
+          class="text-white pt-7 text-xl font-semibold tracking-wider hover:text-cyan hover:cursor-pointer md:text-2xl"
+        >
+          Equilibrium #3429
+        </h1>
+        <!-- Description -->
+        <p class="py-4 font-light md:text-xl">
+          Our Equilibrium collection promotes balance and calm.
+        </p>
+
+        <!-- Price and Day left -->
+        <div class="flex justify-between">
+          <div class="flex text-cyan font-semibold space-x-2 items-center">
+            <!-- Eth Icon -->
+            <img src="images/icon-ethereum.svg" alt="eth-icon" class="w-3" />
+            <!-- Price -->
+            <span>0.041 ETH</span>
+          </div>
+          <div class="flex items-center space-x-2">
+            <!-- Clock Icon -->
+            <img src="images/icon-clock.svg" alt="clock-icon" class="w-5" />
+            <!-- Day left -->
+            <span>3 days left</span>
+          </div>
+        </div>
+
+        <!-- Line Break -->
+        <hr class="border border-lineDarkBlue my-4" />
+
+        <!-- Artist -->
+        <div class="flex items-center space-x-4">
+          <!-- Image -->
+          <div class="rounded-full border-white border-2 w-10">
+            <img src="images/image-avatar.png" alt="" />
+          </div>
+
+          <!-- Name -->
+          <p>
+            Creation of
+            <span class="text-white hover:text-cyan hover:cursor-pointer"
+              >Jules Wyvern</span
+            >
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <div class="attribution">
+      Challenge by
+      <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+        >Frontend Mentor</a
+      >. Coded by
+      <a href="https://github.com/ThornenSan" target="_blank">Thornen San</a>.
+    </div>
+  </body>
+</html>
